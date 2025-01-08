@@ -1,6 +1,6 @@
-## skyrme力推出skyrme密度泛函
+## skyrme 力推出 skyrme 密度泛函
 
-记skyrme相互作用为：
+记 skyrme 相互作用为：
 
 $$
 \begin{align*}
@@ -11,7 +11,7 @@ V^{(3)}= & t_{3}\delta(\boldsymbol{r}_{1}-\boldsymbol{r}_{2})\delta(\boldsymbol{
 \end{align*}
 $$
 
- 其中$\boldsymbol{k}$和$\boldsymbol{k}^{\prime}$为：
+ 其中 $\boldsymbol{k}$ 和 $\boldsymbol{k}^{\prime}$ 为：
 
 $$
 \begin{align*}
@@ -20,7 +20,7 @@ $$
 \end{align*}
 $$
 
-$\boldsymbol{k}^{\prime}$是作用到左侧波函数的。$\boldsymbol{\sigma}$表示Pauli矩阵，$P_{\sigma}$表示自旋交换算符。$t_{0},t_{1},t_{2},t_{3},x_{0},W_{0}$都是参数。
+$\boldsymbol{k}^{\prime}$ 是作用到左侧波函数的。$\boldsymbol{\sigma}$ 表示 Pauli 矩阵，$P_{\sigma}$ 表示自旋交换算符。$t_{0},t_{1},t_{2},t_{3},x_{0},W_{0}$ 都是参数。
 
 我们想把能量密度泛函表示成下列密度分布的函数：
 
@@ -30,7 +30,7 @@ $$
 \rho_{t}(\boldsymbol{r})=\sum_{i,s}\left|\phi_{i}(\boldsymbol{r},s,t)\right|^{2}
 $$
 
-这里$\phi_{i}(\boldsymbol{r},s,t)=\langle\boldsymbol{r},s,t|i\rangle$。可以把总密度定义为$\rho(\boldsymbol{r})=\rho_{\text{p}}(\boldsymbol{r})+\rho_{\text{n}}(\boldsymbol{r})$。
+这里 $\phi_{i}(\boldsymbol{r},s,t)=\langle\boldsymbol{r},s,t|i\rangle$。可以把总密度定义为 $\rho(\boldsymbol{r})=\rho_{\text{p}}(\boldsymbol{r})+\rho_{\text{n}}(\boldsymbol{r})$。
 
 2.质子或中子的动能密度：
 
@@ -38,7 +38,7 @@ $$
 \tau_{t}(\boldsymbol{r})=\sum_{i,s}\left|\nabla\phi_{i}(\boldsymbol{r},s,t)\right|^{2}
 $$
 
-总自旋密度为$\tau(\boldsymbol{r})=\tau_{\text{p}}(\boldsymbol{r})+\tau_{\text{n}}(\boldsymbol{r})$。
+总自旋密度为 $\tau(\boldsymbol{r})=\tau_{\text{p}}(\boldsymbol{r})+\tau_{\text{n}}(\boldsymbol{r})$。
 
 3.自旋轨道流：
 
@@ -46,11 +46,11 @@ $$
 \boldsymbol{J}_{t}(\boldsymbol{r})=-\mathrm{i}\sum_{i,s,s^{\prime}}\phi_{i}^{*}(\boldsymbol{r},s,t)(\nabla\phi_{i}(\boldsymbol{r},s^{\prime},t)\times[\boldsymbol{\sigma}]_{ss^{\prime}})
 $$
 
-总自旋轨道流密度为$\boldsymbol{J}(\boldsymbol{r})=\boldsymbol{J}_{\text{p}}(\boldsymbol{r})+\boldsymbol{J}_{\text{n}}(\boldsymbol{r})$。
+总自旋轨道流密度为 $\boldsymbol{J}(\boldsymbol{r})=\boldsymbol{J}_{\text{p}}(\boldsymbol{r})+\boldsymbol{J}_{\text{n}}(\boldsymbol{r})$。
 
-这里$i$为占据单粒子态指标，$s$和$t$分别为自旋$z$方向分量和同位旋指标$z$方向分量。
+这里 $i$ 为占据单粒子态指标，$s$ 和 $t$ 分别为自旋 $z$ 方向分量和同位旋指标 $z$ 方向分量。
 
-我们要计算HF态下的能量期待值，根据Hartree Fock的结果，我们有：
+我们要计算 HF 态下的能量期待值，根据 Hartree Fock 的结果，我们有：
 
 $$
 E=\langle\text{HF}|\hat{H}|\text{HF}\rangle=\sum_{i}\varepsilon_{i}+\frac{1}{2}\sum_{ij}\langle ij|\bar{v}^{(2)}|ij\rangle+\frac{1}{6}\sum_{ijk}\langle ijk|\bar{v}^{(3)}|ijk\rangle
@@ -68,7 +68,7 @@ $$
 \langle ij|\bar{v}|ij\rangle=\langle ij|v(1-P_{r}P_{\sigma}P_{\tau})|ij\rangle
 $$
 
-这里$P_{r}$和$P_{\tau}$分别为坐标和同位旋交换算符。于是第一项可以写为：
+这里 $P_{r}$ 和 $P_{\tau}$ 分别为坐标和同位旋交换算符。于是第一项可以写为：
 
 $$
 E_{0}=\frac{1}{2}\sum_{ij}\langle ij|t_{0}\delta (\boldsymbol r_1 - \boldsymbol r_2)(1+x_{0}P_{\sigma})(1-P_{r}P_{\sigma}P_{\tau})|ij\rangle
@@ -82,7 +82,7 @@ E_{0} & =\frac{1}{2}t_{0}\sum_{ij}\langle ij|\delta (\boldsymbol r_1 - \boldsymb
 \end{align*}
 $$
 
-利用 $(\boldsymbol{\sigma}_{1}\cdot\boldsymbol{\sigma}_{2})^{2}=3-2\boldsymbol{\sigma}_{1}\cdot\boldsymbol{\sigma}_{2}$，我们可以把 Pauli 算符的二次项转化为一次项。接下来为了继续推导，我们必须假设 HF 基态具有时间反演不变性[^2]。利用时间反演不变性，我们可以得到 Pauli 算符的一次项为零，证明放在附录 [[#Pauli 算符一次项为零]]。由此我们得到：
+利用 $(\boldsymbol{\sigma}_{1}\cdot\boldsymbol{\sigma}_{2})^{2}=3-2\boldsymbol{\sigma}_{1}\cdot\boldsymbol{\sigma}_{2}$，我们可以把 Pauli 算符的二次项转化为一次项。接下来为了继续推导，我们必须假设 HF 基态具有时间反演不变性 [^2]。利用时间反演不变性，我们可以得到 Pauli 算符的一次项为零，证明放在附录 [[#Pauli 算符一次项为零]]。由此我们得到：
 
 $$
 E_{0}=\frac{1}{2}t_{0}\sum_{ij}\langle ij|\delta(\boldsymbol{r}_{1}-\boldsymbol{r}_{2})[1+\frac{1}{2}x_{0}-\delta_{t_{1}t_{2}}(\frac{1}{2}+x_{0})]|ij\rangle
@@ -103,7 +103,7 @@ $$
 \mathcal{H}_{0}(\boldsymbol{r})=\frac{1}{2}t_{0}[(1+\frac{1}{2}x_{0})\rho(\boldsymbol{r})\rho(\boldsymbol{r})-(\frac{1}{2}+x_{0})(\rho_{\text{n}}^{2}(\boldsymbol{r})+\rho_{\text{p}}^{2}(\boldsymbol{r}))]
 $$
 
-与第一项相同，我们也可以写出第二项，由于$k^{\prime2}\delta(\boldsymbol{r}_{1}-\boldsymbol{r}_{2})$仅仅是$\delta(\boldsymbol{r}_{1}-\boldsymbol{r}_{2})k^{2}$的Hermite共轭[^3]，因此我们只需计算其一，即：
+与第一项相同，我们也可以写出第二项，由于 $k^{\prime2}\delta(\boldsymbol{r}_{1}-\boldsymbol{r}_{2})$ 仅仅是 $\delta(\boldsymbol{r}_{1}-\boldsymbol{r}_{2})k^{2}$ 的 Hermite 共轭 [^3]，因此我们只需计算其一，即：
 
 $$
 \begin{align*}
@@ -112,7 +112,7 @@ E_{1} & =\frac{1}{2}\sum_{ij}\langle ij|\frac{1}{2}t_{1}\delta(\boldsymbol{r}_{1
 \end{align*}
 $$
 
-出于和上面相同的对时间反演对称性的考量，我们可以略去$k_{1}^{2}$和$k_{2}^{2}$，但由于$\boldsymbol{k}_{1}\cdot\boldsymbol{k}_{2}$同时改变了$i$和$j$核子的波函数，因此不再为零。我们得到：
+出于和上面相同的对时间反演对称性的考量，我们可以略去 $k_{1}^{2}$ 和 $k_{2}^{2}$，但由于 $\boldsymbol{k}_{1}\cdot\boldsymbol{k}_{2}$ 同时改变了 $i$ 和 $j$ 核子的波函数，因此不再为零。我们得到：
 
 $$
 \begin{align*}
@@ -122,7 +122,7 @@ E_{1}= & \frac{1}{4}t_{1}\sum_{ij}\langle ij|\delta(\boldsymbol{r}_{1}-\boldsymb
 \end{align*}
 $$
 
-下面计算$E_{11}$，首先我们要知道：
+下面计算 $E_{11}$，首先我们要知道：
 
 $$
 \begin{align*}
@@ -199,7 +199,7 @@ $$
 E_{1}=\frac{1}{16}t_{1}(4\rho\tau-2\rho_{\text{n}}\tau_{\text{n}}-2\rho_{\text{p}}\tau_{\text{p}}-3\rho\nabla^{2}\rho+\frac{3}{2}\rho_{\text{n}}\nabla^{2}\rho_{\text{n}}+\frac{3}{2}\rho_{\text{p}}\nabla^{2}\rho_{\text{p}}+\boldsymbol{J}_{\text{n}}^{2}+\boldsymbol{J}_{\text{p}}^{2})
 $$
 
-第三项的计算非常类似，唯一的区别是这一项作用在P波上，因此$P_{r}=-1$。于是我们可以得到：
+第三项的计算非常类似，唯一的区别是这一项作用在 P 波上，因此 $P_{r}=-1$。于是我们可以得到：
 
 $$
 E_{2}=\frac{1}{4}t_{2}\sum_{ij}\langle ij|(\overleftarrow{\nabla}_{1}\cdot\delta(\boldsymbol{r}_{1}-\boldsymbol{r}_{2})\overrightarrow{\nabla}_{1}-\overleftarrow{\nabla}_{2}\cdot\delta(\boldsymbol{r}_{1}-\boldsymbol{r}_{2})\overrightarrow{\nabla}_{1})(1+\delta_{t_{1}t_{2}}P_{\sigma})|ij\rangle
@@ -211,7 +211,7 @@ $$
 E_{2}=\frac{1}{4}t_{2}\sum_{ij}\langle ij|[2\overleftarrow{\nabla}_{1}\cdot\delta(\boldsymbol{r}_{1}-\boldsymbol{r}_{2})\overrightarrow{\nabla}_{1}+\delta(\boldsymbol{r}_{1}-\boldsymbol{r}_{2})(\overrightarrow{\nabla}_{1}^{2}+\overrightarrow{\nabla}_{1}\cdot\overrightarrow{\nabla}_{2})](1+\delta_{t_{1}t_{2}}P_{\sigma})|ij\rangle
 $$
 
-代入$P_{\sigma}$，只剩下：
+代入 $P_{\sigma}$，只剩下：
 
 $$
 \begin{align*}
@@ -226,19 +226,19 @@ $$
 E_{2}=\frac{1}{16}t_{2}(4\rho\tau+2\rho_{\text{n}}\tau_{\text{n}}+2\rho_{\text{p}}\tau_{\text{p}}+\rho\nabla^{2}\rho+\frac{1}{2}\rho_{\text{n}}\nabla^{2}\rho_{\text{n}}+\frac{1}{2}\rho_{\text{p}}\nabla^{2}\rho_{\text{p}}-\boldsymbol{J}_{\text{n}}^{2}-\boldsymbol{J}_{\text{p}}^{2})
 $$
 
-接下来计算自旋轨道耦合项，利用1，2的对称性，可以写为：
+接下来计算自旋轨道耦合项，利用 1，2 的对称性，可以写为：
 
 $$
 V_{LS}=\frac{1}{2}\mathrm{i}W_{0}[(\overleftarrow{\nabla}_{1}\times\overrightarrow{\nabla}_{1})\cdot\boldsymbol{\sigma}_{2}+\overleftarrow{\nabla}_{1}\cdot(\overrightarrow{\nabla}_{1}\times\boldsymbol{\sigma}_{1})-(\overleftarrow{\nabla}_{1}\times\overrightarrow{\nabla}_{2})\cdot\boldsymbol{\sigma}_{1}-\overleftarrow{\nabla}_{2}\cdot(\overrightarrow{\nabla}_{1}\times\boldsymbol{\sigma}_{1})]
 $$
 
-利用分部积分，可以把$-(\overleftarrow{\nabla}_{1}\times\overrightarrow{\nabla}_{2})\cdot\boldsymbol{\sigma}_{1}$替换成：
+利用分部积分，可以把 $-(\overleftarrow{\nabla}_{1}\times\overrightarrow{\nabla}_{2})\cdot\boldsymbol{\sigma}_{1}$ 替换成：
 
 $$
 (\overleftarrow{\nabla}_{2}\times\overrightarrow{\nabla}_{2})\cdot\boldsymbol{\sigma}_{1}+(\overrightarrow{\nabla}_{1}\times\overrightarrow{\nabla}_{2})\cdot\boldsymbol{\sigma}_{1}+(\overrightarrow{\nabla}_{2}\times\overrightarrow{\nabla}_{2})\cdot\boldsymbol{\sigma}_{1}
 $$
 
-经计算可以得到只剩下第二项不为零。由于时间反演对称性，上面这一项可以写为$-\overleftarrow{\nabla}_{2}\cdot(\overrightarrow{\nabla}_{1}\times\boldsymbol{\sigma}_{1})$。类似的方式，我们也可以得到$\overleftarrow{\nabla}_{1}\cdot(\overrightarrow{\nabla}_{1}\times\boldsymbol{\sigma}_{1})$可以替换成$-2\overrightarrow{\nabla}_{2}\cdot(\overrightarrow{\nabla}_{1}\times\boldsymbol{\sigma}_{1})$。因此自旋轨道耦合项可以写为：
+经计算可以得到只剩下第二项不为零。由于时间反演对称性，上面这一项可以写为 $-\overleftarrow{\nabla}_{2}\cdot(\overrightarrow{\nabla}_{1}\times\boldsymbol{\sigma}_{1})$。类似的方式，我们也可以得到 $\overleftarrow{\nabla}_{1}\cdot(\overrightarrow{\nabla}_{1}\times\boldsymbol{\sigma}_{1})$ 可以替换成 $-2\overrightarrow{\nabla}_{2}\cdot(\overrightarrow{\nabla}_{1}\times\boldsymbol{\sigma}_{1})$。因此自旋轨道耦合项可以写为：
 
 $$
 V_{LS}=-2\mathrm{i}W_{0}\overrightarrow{\nabla}_{2}\cdot\delta(\boldsymbol{r}_{1}-\boldsymbol{r}_{2})(\overrightarrow{\nabla}_{1}\times\boldsymbol{\sigma}_{1})
