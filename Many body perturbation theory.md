@@ -1,11 +1,11 @@
 ---
 related:
-  - "[[不含时微扰论]]"
+  - "[[Time-Independent Perturbation Theory]]"
   - "[[Hartree-Fock]]"
-  - "[[Wick定理]]"
+  - "[[Wick Theorem]]"
 title: Many body perturbation theory
 author: Chenjiawei
-date:
+date: 
 ---
 在一般的微扰论中，我们并没有生成哈密顿量为单体哈密顿量，因此，只要我们使用多体哈密顿量和相应的多体波函数，即可得到多体微扰论[^1]。
 

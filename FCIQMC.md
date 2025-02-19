@@ -1,4 +1,4 @@
-[[虚时演化]]
+[[Imaginary-time Evolution]]
 [[Monte Carlo]]
 
 [Fermion Monte Carlo without fixed nodes: A game of life, death, and annihilation in Slater determinant space](zotero://select/items/@boothFermionMonteCarlo2009)

@@ -2,7 +2,7 @@
 author: Chenjiawei
 data: "20240113"
 related:
-  - "[[非正交基]]"
+  - "[[Non-orthogonal basis]]"
 ---
 ## 基本理论
 

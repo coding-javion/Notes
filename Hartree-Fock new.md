@@ -1,7 +1,7 @@
 ---
 related:
   - "[[Density Matrix]]"
-  - "[[Wick定理]]"
+  - "[[Wick Theorem]]"
   - "[[Mean Field and Variational Principle]]"
 ---
 > Hartree Fock 方法的本质是，用平均场哈密顿量去近似原哈密顿量。根据[[Mean Field and Variational Principle]]所述，这等价于拿一个试探的直积态去做变分。
